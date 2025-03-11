@@ -1,0 +1,106 @@
+.food-item{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 15px 15px #0000003d;
+    transition: 0.5s;
+    animation: fadeIn 2s;
+}
+.food-item-image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.food-item-info{
+    padding: 0px 10px;
+}
+.food-name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(206, 1, 1);
+}
+.food-desc{
+    color: rgb(137, 137, 137);
+    font-size: 15px;
+    margin: 6px 0px;
+}
+.food-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.f-price{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: rgba(255, 60, 0, 0.744);
+}
+.food-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffbf00;
+    border: 1px solid #ffbf00;
+    gap: 5px;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+}
+.food-rating img{
+    width: 15px;
+}
+
+.food-item-img-container{
+    position: relative;
+
+}
+.food-favourat{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 24px;
+    border-radius: 5px;
+}
+.food-favourat img{
+    width: 20px;
+}
+.food-item-img-container .add{
+    border: 1px solid rgb(235, 235, 235);
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.food-item-counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    background-color: white;
+    border-radius: 50px;
+}
+.food-item-counter img{
+    width: 20px;
+    
+}
+@media (max-width: 750px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+}

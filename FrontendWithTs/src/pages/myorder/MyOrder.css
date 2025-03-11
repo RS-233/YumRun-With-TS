@@ -1,0 +1,101 @@
+.my-order{
+    padding: 0px 100px;
+    margin: 50px 0px;
+}
+.my-order-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.my-order-box{
+    border-radius: 5px;
+    align-items: center;
+    gap: 30px;
+    font-size: 14px;
+    padding: 10px 10px;
+    color: #454545;
+    border: 2px solid rgb(0, 71, 133);
+}
+.my-orders-order{
+    display: flex;
+    justify-content: space-between;
+}
+.my-orders-order-main{
+    width: 90%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.my-orders-order-section-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.order-status{
+     color: rgb(255, 77, 0);
+}
+.order-status span{
+    color: rgb(61, 61, 61);
+}
+.my-orders-order img{
+    width: 50px;
+}
+.track-button{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+.track-button button{
+   border: none;
+   padding: 5px 10px;
+   background-color: rgb(28, 25, 73);
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.Pending span, .Paid span{
+    color: rgb(52, 52, 52);
+}
+.Paid{
+    color: green;
+    font-weight: 600;
+}
+.Pending{
+    color: red;
+    font-weight: 600;
+}
+
+@media (max-width:800px){
+    .my-order{
+        padding: 0px 40px;
+    }
+        
+    .my-orders-order{
+        gap: 10px;
+    }
+}
+
+@media(max-width: 650px){
+    .my-order{
+        padding: 0px 10px;
+        margin-top: 10px;
+    }
+    .my-orders-order{
+        font-size: 15px;
+        padding: 5px 0px;
+    }
+    .my-orders-order-section-1{
+       justify-content: space-between;
+    }
+    .my-orders-order-main{
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    .my-order-box{
+        padding: 5px 5px;
+        border: 1px solid rgb(0, 71, 133);
+    }
+}

@@ -1,0 +1,31 @@
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    padding: 0px 20px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.food-display span{
+    color: rgb(3, 201, 3);
+}
+
+.food-display-list{
+    border-top: 1px solid rgb(156, 155, 155);
+    padding: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,2fr));
+    margin-top: 20px;
+    gap: 30px;
+    row-gap: 50px;
+    
+}
+
+@media(max-width: 400px){
+    .food-display h2{
+        font-size: 25px;
+    } 
+    .food-display-list{
+        padding: 20px 20px;
+    }
+}
