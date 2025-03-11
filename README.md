@@ -1,7 +1,7 @@
 live Link -> https://yumrun-z9ry.onrender.com/
 
 
--> CLone repo omn locally bu using vs code
+-> CLone repo on locally by using vs code
 -> run command on terminal
 -> npm install
 -> npm run dev for frontend
